@@ -1,4 +1,3 @@
-
 CREATE TABLE `tag` (
   `id_tag` int(11) NOT NULL,
   `tag_name` varchar(255) NOT NULL,
