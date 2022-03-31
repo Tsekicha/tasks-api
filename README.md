@@ -91,7 +91,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
    }
 ]
 ```
-**PUT/tasks/update/{id}** - Update records from `tasks` and `task_tag` tables <br>
+**POST/tasks/update/{id}** - Update records from `tasks` and `task_tag` tables <br>
 **input BODY:**
 ```
 [
@@ -108,7 +108,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
    }
 ]
 ```
-**DELETE/tasks/delete{id}** - Delete records from `tasks` and `task_tag` tables by id <br>
+**POST/tasks/delete{id}** - Delete records from `tasks` and `task_tag` tables by id <br>
 **input BODY:**
 ```
 [
