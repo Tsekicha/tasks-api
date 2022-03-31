@@ -33,7 +33,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 
 **GET/tasks/read** - Get all the records from `task` table
 
-**INPUT: http://localhost:8080/tasks/tasks_read.php**
+**INPUT: http://localhost:8080/tasks/tasks_read.php**<br>
 **JASON:**
 ```{
     "tasks": [
@@ -72,7 +72,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 ```
 **GET/task/read/{id}** - Get the record by id in the `task` table
 
-**INPUT: http://localhost:8080/tasks/task_readOne.php?id_task=17** 
+**INPUT: http://localhost:8080/tasks/task_readOne.php?id_task=17** <br>
 **JASON:**
 ```
 {
@@ -82,7 +82,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 ```
 **POST/tasks/create** - Create records and insert them into `task` table
 
-**INPUT: http://localhost:8080/tasks/create_post.php** 
+**INPUT: http://localhost:8080/tasks/create_post.php** <br>
 **BODY:**
 ```
 [
@@ -98,7 +98,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 ]
 ```
 **POST/tasks/update** - Update records from `tasks` and `task_tag` tables
-**INPUT: http://localhost:8080/tasks/update_post.php** 
+**INPUT: http://localhost:8080/tasks/update_post.php** <br>
 **BODY:**
 ```
 [
@@ -116,7 +116,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 ]
 ```
 **POST/tasks/delete{id}** - Update records from `tasks` and `task_tag` tables
-**INPUT: http://localhost:8080/tasks/delete_post.php** 
+**INPUT: http://localhost:8080/tasks/delete_post.php** <br>
 **BODY:**
 ```
 [
