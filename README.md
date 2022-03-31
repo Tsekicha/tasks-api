@@ -23,7 +23,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 ## Config -
  The database connection is in .config/db.php and the table information for creating and foreign keys are in dump.sql file.
  
- When you open the project folder, start the server with  * php -S localhost:8080 * 
+ When you open the project folder, start the server with  *php -S localhost:8080* 
  
 ## API - 
 ./object folder contains the method for task and tags. <br>
