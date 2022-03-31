@@ -130,6 +130,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 ]
 ```
 
+I gave examples with multiple changes, but one change works too. <br>
 The same CRUD operations goes for `tag` table.
 
 ## End point -
