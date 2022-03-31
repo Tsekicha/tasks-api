@@ -108,7 +108,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
    }
 ]
 ```
-**DELETE/tasks/delete{id}** - Update records from `tasks` and `task_tag` tables <br>
+**DELETE/tasks/delete{id}** - Delete records from `tasks` and `task_tag` tables by id <br>
 **BODY:**
 ```
 [
