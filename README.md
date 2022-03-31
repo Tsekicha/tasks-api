@@ -31,9 +31,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 
 ## Examples -
 
-**GET/tasks/read** - Get all the records from `task` table
-
-**INPUT: http://localhost:8080/tasks/tasks_read.php**<br>
+**GET/tasks/read** - Get all the records from `task` table <br>
 **JSON:**
 ```{
     "tasks": [
@@ -93,7 +91,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
    }
 ]
 ```
-**PUT/tasks/update** - Update records from `tasks` and `task_tag` tables <br>
+**PUT/tasks/update/{id}** - Update records from `tasks` and `task_tag` tables <br>
 **BODY:**
 ```
 [
