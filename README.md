@@ -3,6 +3,7 @@ This is about Back-end API for creating tasks and assigning multiple tags to spe
 
 ## Author -
 My name is Tsvetomir Kostov. I'm currently student and learning the depths of PHP, while i'm writing small projects for beginners/juniors.
+
 ***I want to mention that i am still beginner at this point and project might have mistakes and errors which i'll fix if i find them ***
 
 ## PREREQUISITES -
