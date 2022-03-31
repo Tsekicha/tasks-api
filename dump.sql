@@ -7,7 +7,6 @@ CREATE TABLE `tag` (
 ALTER TABLE `tag`
   ADD PRIMARY KEY (`id_tag`);
 
-
 CREATE TABLE `task` (
   `id_task` int(11) NOT NULL,
   `task_name` varchar(255) NOT NULL
