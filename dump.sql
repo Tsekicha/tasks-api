@@ -4,16 +4,17 @@ CREATE TABLE `tag` (
   `color` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-ALTER TABLE `task`
-  ADD PRIMARY KEY (`id_task`);
+ALTER TABLE `tag`
+  ADD PRIMARY KEY (`id_tag`);
+
 
 CREATE TABLE `task` (
   `id_task` int(11) NOT NULL,
   `task_name` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-ALTER TABLE `tag`
-  ADD PRIMARY KEY (`id_tag`);
+ALTER TABLE `task`
+  ADD PRIMARY KEY (`id_task`);
 
 CREATE TABLE `task_tag` (
   `id` int(11) NOT NULL,
