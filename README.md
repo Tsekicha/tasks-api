@@ -26,7 +26,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
  When you open the project folder, start the server with  *php -S localhost:8080* 
  
 ## API - 
-./object folder contains the methodс for task and tags. <br>
+./object folder contains the methods for task and tags. <br>
 ./tasks and ./tags folder contains the logic for the CRUD operations.
 
 ## Examples -
