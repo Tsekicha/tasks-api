@@ -70,9 +70,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
     ]
 }
 ```
-**GET/task/read/{id}** - Get the record by id in the `task` table
-
-**INPUT: http://localhost:8080/tasks/task_readOne.php?id_task=17** <br>
+**GET/task/read/{id}** - Get the record by id in the `task` table<br>
 **JSON:**
 ```
 {
@@ -80,9 +78,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
     "task_name": "Buy chocolate"
 }
 ```
-**POST/tasks/create** - Create records and insert them into `task` table
-
-**INPUT: http://localhost:8080/tasks/create_post.php** <br>
+**POST/tasks/create** - Create records and insert them into `task` table<br>
 **BODY:**
 ```
 [
@@ -97,8 +93,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
    }
 ]
 ```
-**POST/tasks/update** - Update records from `tasks` and `task_tag` tables
-**INPUT: http://localhost:8080/tasks/update_post.php** <br>
+**PUT/tasks/update** - Update records from `tasks` and `task_tag` tables <br>
 **BODY:**
 ```
 [
@@ -115,8 +110,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
    }
 ]
 ```
-**POST/tasks/delete{id}** - Update records from `tasks` and `task_tag` tables
-**INPUT: http://localhost:8080/tasks/delete_post.php** <br>
+**DELETE/tasks/delete{id}** - Update records from `tasks` and `task_tag` tables <br>
 **BODY:**
 ```
 [
