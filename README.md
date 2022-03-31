@@ -34,7 +34,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 **GET/tasks/read** - Get all the records from `task` table
 
 **INPUT: http://localhost:8080/tasks/tasks_read.php**<br>
-**JASON:**
+**JSON:**
 ```{
     "tasks": [
         {
@@ -73,7 +73,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 **GET/task/read/{id}** - Get the record by id in the `task` table
 
 **INPUT: http://localhost:8080/tasks/task_readOne.php?id_task=17** <br>
-**JASON:**
+**JSON:**
 ```
 {
     "id_task": "17",
