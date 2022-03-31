@@ -77,7 +77,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 }
 ```
 **POST/tasks/create** - Create records and insert them into `task` table<br>
-**BODY:**
+**input BODY:**
 ```
 [
    {
@@ -92,7 +92,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 ]
 ```
 **PUT/tasks/update/{id}** - Update records from `tasks` and `task_tag` tables <br>
-**BODY:**
+**input BODY:**
 ```
 [
    {
@@ -109,7 +109,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
 ]
 ```
 **DELETE/tasks/delete{id}** - Delete records from `tasks` and `task_tag` tables by id <br>
-**BODY:**
+**input BODY:**
 ```
 [
     {
