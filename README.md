@@ -68,7 +68,7 @@ I am using PHP for scripting, MySql ( phpmyadmin ) for database and Postman for 
     ]
 }
 ```
-**GET/task/read/{id}** - Get the record by id in the `task` table<br>
+**GET/tasks/read/{id}** - Get the record by id in the `task` table<br>
 **JSON:**
 ```
 {
